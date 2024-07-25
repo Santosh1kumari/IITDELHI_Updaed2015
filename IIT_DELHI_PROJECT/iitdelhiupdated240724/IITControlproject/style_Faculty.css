@@ -1,0 +1,203 @@
+*{
+padding: 0px;
+margin:0px;
+box-sizing:border-box;
+}
+ body::-webkit-scrollbar
+{
+
+display: none;
+
+} 
+
+#bigcontainer
+{
+    width:100%;
+    margin: 0 auto;
+  display: flex;
+  text-align: center;
+  border: 2px solid maroon;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid
+{
+ width:90%;
+ height:100%;
+
+ text-align: center;
+
+}
+.container-fluid1
+{
+ width:90%;
+ height:100%;
+
+ text-align: center;
+
+}
+
+ .row
+{
+     margin-bottom: 30px;
+     padding-bottom: 12px;
+    
+} 
+.col
+{
+  
+border:1px solid grey;
+ text-align:center;
+ margin: 0 auto;
+ display: flex;
+ border-radius: 20px;
+overflow: hidden;
+
+}
+.para
+{
+   width:42rem; ;
+  height:13rem; 
+text-align: justify;
+margin-left: 55px;
+
+
+}
+
+.col1
+{
+  width: 15rem;
+  height: 10rem;
+  border:1px solid grey;
+ text-align: center;
+ margin: 0 8px;
+ border-radius: 20px;
+ 
+}
+.row1
+{
+     
+  width:100%;
+ 
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+ align-items: center;
+} 
+.img
+{
+  width:10rem;
+  height:12rem;
+border-radius: 12px;
+     margin: 0 30px;
+    padding-top: 10px;
+  margin: 15px,169px;
+}
+img
+{
+  border-radius: 15px;
+
+}
+h4
+{
+  font-size: 22px;
+  font-weight: bold;
+  color: blue;
+  margin-top: 10px;
+
+}
+p
+{
+font-size: 18px;
+
+}
+h1
+{
+
+margin-bottom: 20px;
+font-weight:bold;
+margin-top: 20px;
+}
+.img1
+{
+
+  width:8rem;
+  height: 8rem;
+   
+   margin: 0 auto;
+   padding-top: 10px;
+}
+
+
+.hr-with-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  font-size:38px;
+  font-weight:bold;
+
+}
+
+.hr-with-text::before,
+.hr-with-text::after {
+  content: '';
+  flex: 1;
+  border-bottom: 4px solid #e18484;; 
+}
+
+.hr-with-text:not(:empty)::before {
+  margin-right: 10px;
+}
+
+.hr-with-text:not(:empty)::after {
+  margin-left: 10px; 
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 806px) { 
+    
+   .row1
+   {
+  flex-wrap: wrap;
+
+
+   }
+    .col
+    {
+flex-wrap: wrap;
+ 
+ text-align: center;
+    }
+    .img
+    {
+ 
+
+margin: 0 auto;
+    }
+    p
+    {
+      font-size: 12px;
+
+
+    }
+
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
